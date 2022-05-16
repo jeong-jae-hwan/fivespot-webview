@@ -8,7 +8,7 @@ function ScrollBtnTop() {
 
   const handleFollow = () => {
     setScrollY(window.pageYOffset)
-    if (ScrollY > 100) {
+    if (ScrollY > 40) {
       // 100 이상이면 버튼이 보이게
       setBtnStatus(true)
     } else {
@@ -39,7 +39,7 @@ function ScrollBtnTop() {
 
   return (
     <>
-      {BtnStatus && (
+      {ScrollY > 30 && (
         <div className={styles.btnTop} onClick={handleTop}>
           <img src={up} alt="" />
         </div>
