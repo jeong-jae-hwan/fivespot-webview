@@ -18,6 +18,7 @@ body {
   color: #fff;
   overflow-y: scroll;
   color: #333;
+  position: relative;
 }
 h1,
 h2,
@@ -96,4 +97,14 @@ input[type='number']::-webkit-outer-spin-button,
 input[type='number']::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+select {
+  background: url(./@assets/select.svg) no-repeat 95% 50%;
+  appearance: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border: none;
 }

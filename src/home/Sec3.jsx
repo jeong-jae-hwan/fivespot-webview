@@ -3,7 +3,7 @@ import styles from './css/sec3.module.css'
 import sale40Img from '../@assets/sec3/40sale.svg'
 import sale30Img from '../@assets/sec3/30sale.svg'
 
-function Sec3() {
+function Sec3({ handleNavPosition }) {
   return (
     <section className={styles.wrapper}>
       <h1>
@@ -41,7 +41,7 @@ function Sec3() {
         </li>
       </ul>
 
-      <button>
+      <button type="button" onClick={handleNavPosition}>
         <span>우리 회사에 맞는 멤버십</span>
         <h5>무료 상담 받기</h5>
       </button>

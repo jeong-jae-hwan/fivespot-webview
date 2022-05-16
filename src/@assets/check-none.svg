@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="check-none" transform="translate(-97 -6289)">
+    <g id="사각형_8215" data-name="사각형 8215" transform="translate(97 6289)" fill="none" stroke="#ccc" stroke-width="1">
+      <rect width="14" height="14" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="13" rx="2.5" fill="none"/>
+    </g>
+    <path id="패스_17550" data-name="패스 17550" d="M634.618,1178.77l-4.8,4.585-1.659-1.585a.625.625,0,0,0-.436-.173h-.007a.622.622,0,0,0-.438.182.6.6,0,0,0,.007.86l2.1,2a.652.652,0,0,0,.872,0l5.236-5a.593.593,0,0,0,.008-.845A.635.635,0,0,0,634.618,1178.77Z" transform="translate(-527.387 5114.296)" fill="#e2e2e2"/>
+  </g>
+</svg>

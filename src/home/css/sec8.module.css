@@ -1,0 +1,102 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 0;
+  background-color: #f9f9f9;
+}
+
+.wrapper h1 {
+  width: 100%;
+  padding: 0 25px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.wrapper p {
+  width: 100%;
+  padding: 0 25px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 14px;
+}
+
+.form_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+  row-gap: 20px;
+}
+
+.input_wrap1 {
+  width: 100%;
+  display: flex;
+  column-gap: 10px;
+}
+
+.input_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_box label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.input_box input {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.input_box select {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.check_wrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.check_wrap img {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.check_wrap p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.check_wrap p a {
+  font-size: 13px;
+  color: #999;
+  text-decoration: underline;
+}
+
+.ableBtn {
+  background-color: #f67640;
+  width: 100%;
+  border-radius: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn {
+  background-color: #ccc;
+  width: 100%;
+  border-radius: 0;
+    transition: 0.3s ease-in-out;
+}

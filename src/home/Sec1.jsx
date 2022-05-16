@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './css/sec1.module.css'
 import logo from '../@assets/sec1/logo.svg'
 
-function Sec1() {
+function Sec1({ handleNavPosition }) {
   return (
     <section className={styles.wrapper}>
       <img src={logo} alt="" />
@@ -17,7 +17,9 @@ function Sec1() {
         </h1>
       </div>
 
-      <button type="button">무료 상담 신청하기</button>
+      <button type="button" onClick={handleNavPosition}>
+        무료 상담 신청하기
+      </button>
     </section>
   )
 }
