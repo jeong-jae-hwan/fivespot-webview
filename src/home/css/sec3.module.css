@@ -1,0 +1,102 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 25px 30px;
+  background-color: #ffe5cb;
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.wrapper h1 span {
+  font-weight: 600;
+}
+
+.wrapper ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  row-gap: 20px;
+}
+
+.wrapper ul li {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 3px 20px rgba(102, 102, 102, 0.22);
+  position: relative;
+}
+
+.wrapper ul li h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.wrapper ul li h3 span {
+  font-weight: 600 !important;
+}
+
+.wrapper ul li h2 {
+  font-size: 22px;
+}
+
+.wrapper ul li h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrapper ul li p {
+  margin-top: 16px;
+  color: #797979;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wrapper ul li img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card_box1 {
+  border: 2px solid #f67640;
+}
+
+.card_box2 {
+  border: 2px solid #979797;
+}
+
+.card_box1 h2 {
+  color: #f67640;
+}
+
+.card_box1 h4 {
+  color: #ffa985;
+}
+
+.wrapper button {
+  max-width: 250px;
+  height: auto;
+  padding: 10px;
+  background-color: #f67640;
+  box-shadow: 0 3px 5px rgba(102, 102, 102, 0.18);
+}
+
+.wrapper button span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.wrapper button h5 {
+  font-size: 18px;
+  color: #fff;
+}
