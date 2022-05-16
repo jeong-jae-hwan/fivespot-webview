@@ -16,7 +16,7 @@ function Home() {
     i => {
       fromRef.current.scrollIntoView({
         behavior: 'smooth',
-        block: 'start',
+        block: 'end',
       })
     },
     [fromRef]
