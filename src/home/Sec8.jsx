@@ -112,8 +112,8 @@ function Sec8({ refs }) {
               <option disabled selected>
                 희망 상품 선택을 선택하세요.
               </option>
+              <option value="데일리 패스">데일리 패스</option>
               <option value="무제한 패스">무제한 패스</option>
-              <option value="차감형 패스">차감형 패스</option>
             </select>
           </div>
 
