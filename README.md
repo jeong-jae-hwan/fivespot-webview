@@ -1,1 +1,1 @@
-fivespot 웹뷰 
+fivespot 페스트 파이브 = 파이브 스팟 메인 페이지 웹뷰 
